@@ -1,0 +1,17 @@
+.login {
+    text-align: center;
+}
+
+.login p {
+    color: #aaa;
+}
+
+@media screen and (max-width: 550px) {
+
+    .login p {
+        color: #aaa;
+        max-width: 70%;
+        margin: 20px auto;
+    }
+
+}

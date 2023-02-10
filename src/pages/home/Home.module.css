@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  width: 50%;
+}
+
+@media screen and (max-width: 550px) {
+
+  h1 {
+    text-align: center;
+    margin: 25px 10px ;
+    font-size: 1.6em;
+  }
+  
+  .search_form {
+    width: 80%;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .search_form input {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .search_form button{
+     margin: auto;
+  }
+  
+}

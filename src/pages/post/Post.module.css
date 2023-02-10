@@ -1,0 +1,32 @@
+.post_container{
+    text-align: center;
+}
+
+.post_container .tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tags p{
+    margin: 0;
+    margin-right: 1em;
+}
+
+.tags span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+
+    .post_container {
+        margin-bottom: 2em;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .post_container img {
+       width: 100%;
+    }
+  
+}

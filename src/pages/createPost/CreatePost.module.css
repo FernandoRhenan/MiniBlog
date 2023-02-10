@@ -1,0 +1,21 @@
+.create_post{
+    text-align: center;
+}
+
+.create_post h2{
+    font-size: 2.2em;
+}
+
+.create_post p{
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 550px) {
+
+    .create_post p{
+        width: 80%;
+        margin: 2em auto;
+    }
+
+}
