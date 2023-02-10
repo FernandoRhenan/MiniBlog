@@ -30,6 +30,12 @@
     margin-bottom: 1em;
 }
 
+.show{
+  color: #2600ff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 550px) {
     
     .post_detail {

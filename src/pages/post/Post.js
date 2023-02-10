@@ -12,9 +12,9 @@ const Post = () => {
             {loading && <p>Carregando...</p>}
             {post &&
                 <>
-                    <h1>{post.title}</h1>
                     <img src={post.image} alt={post.title} />
-                    <h3>Este post trata sobre:</h3>
+                    <h1>{post.title}</h1>
+                    <p className={styles.body}>{post.body}</p>
                     <div className={styles.tags}>
                         {post.tagsArray.map((tag) => ((
                             <p key={tag}>

@@ -3,6 +3,8 @@ import styles from './PostDetail.module.css'
 
 
 const PostDetail = ({ post }) => {
+
+    console.log(post)
     return (
         <div className={styles.post_detail}>
             <img src={post.image} alt={post.title} />
@@ -13,7 +15,7 @@ const PostDetail = ({ post }) => {
                     <p key={tag}><span>#</span>{tag}</p>
                 ))}
             </div>
-            <Link to={`/posts/${post.id}`}>Ver mais</Link>
+            <Link className={styles.show} to={`/posts/${post.id}`}>Ver mais...</Link>
         </div>
     )
 }

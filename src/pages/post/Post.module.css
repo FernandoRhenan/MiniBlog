@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+.post_container img{
+    margin-top: 70px;
+}
+
 .tags p{
     margin: 0;
     margin-right: 1em;
@@ -15,6 +19,15 @@
 
 .tags span{
     font-weight: bold;
+}
+
+.body{
+    width: 600px;
+    margin: 15px auto;
+    text-align: left;
+}
+.body::first-letter{
+    padding-left: 7px;
 }
 
 @media screen and (max-width: 550px) {
@@ -27,6 +40,10 @@
     
     .post_container img {
        width: 100%;
+    }
+
+    .body{
+        width: 80%;
     }
   
 }
